@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import logo from './alx-logo.jpg';
 
@@ -6,7 +5,7 @@ function App() {
   return (
     <div>
       <div className="App-header">
-        <img src={logo} alt="ALX logo" />
+        <img src={logo} alt="logo" />
         <h1>School dashboard</h1>
       </div>
       
