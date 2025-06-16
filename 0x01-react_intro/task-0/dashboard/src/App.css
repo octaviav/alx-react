@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #e0344a;
+  --secondary-color: #fff;
+  --text-color: #333;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,17 +14,17 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
   font-family: Arial, sans-serif;
 }
 
 .App-header {
-  background-color: #f5f5f5;
+  background-color: var(--secondary-color);
   padding: 40px 60px;
   display: flex;
   align-items: center;
   gap: 20px;
-  border-bottom: 3px solid #e0344a;
+  border-bottom: 3px solid var(--primary-color);
+  height: 40vh;
 }
 
 .App-header img {
@@ -27,7 +33,7 @@
 }
 
 .App-header h1 {
-  color: #e0344a;
+  color: var(--primary-color);
   font-size: 48px;
   font-weight: normal;
 }
