@@ -5,7 +5,28 @@
 }
 
 .Notifications {
-    border: solid 3px var(--primary-color);
-    padding: 20px;
+    border: dotted 3px var(--primary-color);
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 20px;
+  margin-left: 20px;
+}
+
+ul li[data='default'] {
+  color: blue
+}
+
+ul li[data='urgent'] {
+  color: red;
+}
+
+span {
+  font-weight: bold;
 }
 

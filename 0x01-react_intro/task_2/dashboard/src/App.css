@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .App {
@@ -34,19 +35,21 @@
 
 .App-header h1 {
   color: var(--primary-color);
-  font-size: 48px;
-  font-weight: normal;
+  font-size: 35px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .App-body {
   flex: 1;
-  padding: 60px;
+  padding: 20px;
   background-color: white;
 }
 
 .App-body p {
   font-size: 20px;
   color: #333;
+  padding: 10px;
 }
 
 .App-footer {
@@ -60,4 +63,14 @@
   font-size: 18px;
   color: #333;
   font-style: italic;
+}
+
+label {
+  font-size: 20px;
+  color: #333;
+  padding: 10px;
+}
+
+button {
+  margin-left: 5px;
 }
